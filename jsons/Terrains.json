@@ -6,12 +6,11 @@
 		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
-		"uniques":["Becomes [Grassland] when adjacent to [Grassland Core]",
+		"uniques":["Becomes [Forest] when adjacent to [Grassland]","Becomes [Grassland] when adjacent to [Grassland Core]",
             "Becomes [Plains] when adjacent to [Plains Core]",
             "Becomes [Tundra] when adjacent to [Tundra Core]",
             "Becomes [Desert] when adjacent to [Desert Core]",
             "Becomes [Snow] when adjacent to [Snow Core]",
-			"Becomes [Forest] when adjacent to [Grassland]",
             "Becomes [Coast] when adjacent to [Land]",
 		    "Becomes [Coast] when adjacent to [Land]",
 		]
