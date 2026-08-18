@@ -25,7 +25,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Coastal Water","Becomes [Ocean] when adjacent to [Ocean]"]
+            "Coastal Water","Becomes [Ocean] when adjacent to [Land]"]
 	},
     {
 		"name": "Grassland",
