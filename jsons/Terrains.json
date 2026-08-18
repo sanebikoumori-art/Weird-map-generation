@@ -12,7 +12,8 @@
             "Becomes [Desert] when adjacent to [Desert Core]",
             "Becomes [Snow] when adjacent to [Snow Core]",
             
-            "Becomes [Coast] when adjacent to [Land]"]
+            "Becomes [Coast] when adjacent to [Land]",
+		    "Becomes [Coast] when adjacent to [Land]"]
 		"RGB": [43, 87, 151]
 	},
 	{
