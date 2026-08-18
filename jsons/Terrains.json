@@ -12,7 +12,6 @@
             "Becomes [Desert] when adjacent to [Desert Core]",
             "Becomes [Snow] when adjacent to [Snow Core]",
 
-			"Becomes [Forest] when adjacent to [Forest Core]",
             "Becomes [Coast] when adjacent to [Land]",
 		    "Becomes [Coast] when adjacent to [Land]"]
 		"RGB": [43, 87, 151]
@@ -243,6 +242,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
+			"Neighboring tiles will convert to [Forest]",
 			"Vegetation"
 		]
     },
