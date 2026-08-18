@@ -239,7 +239,7 @@
 		"name": "Forest Core",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"occursOn": ["Grassland Core","Plains Core","Tundra Core"],
+		"occursOn": ["Grassland","Plains","Tundra"],
         "RGB": [0, 163, 0],
         "uniques": [
 			"Vegetation"
