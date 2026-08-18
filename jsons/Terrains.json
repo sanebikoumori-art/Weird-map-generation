@@ -7,13 +7,13 @@
 		"gold": 1,
 		"movementCost": 1,
 		"uniques":["Becomes [Grassland] when adjacent to [Grassland Core]",
-			"Becomes [Forest] when adjacent to [Forest Core]",
             "Becomes [Plains] when adjacent to [Plains Core]",
             "Becomes [Tundra] when adjacent to [Tundra Core]",
             "Becomes [Desert] when adjacent to [Desert Core]",
             "Becomes [Snow] when adjacent to [Snow Core]",
             "Becomes [Coast] when adjacent to [Land]",
-		    "Becomes [Coast] when adjacent to [Land]"]
+		    "Becomes [Coast] when adjacent to [Land]",
+		]
 		"RGB": [43, 87, 151]
 	},
 	{
@@ -55,6 +55,7 @@
             "Becomes [Ocean] when adjacent to [Ocean]",
             "Becomes [Hill] when adjacent to [Hill Core]",
             "Becomes [Forest] when adjacent to [Forest Core]",
+			"Becomes [Forest] when adjacent to [Grassland]",
         ]
     },
 	{
