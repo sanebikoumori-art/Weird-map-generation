@@ -53,7 +53,7 @@
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Becomes [Ocean] when adjacent to [Ocean]",
+            "Becomes [Ocean] when adjacent to [Water]",
         ]
     },
 	{
@@ -83,7 +83,7 @@
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-        "Becomes [Ocean] when adjacent to [Ocean]",
+        "Becomes [Ocean] when adjacent to [Water]",
             ]
 	},
 	{
@@ -103,7 +103,7 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-        "Becomes [Ocean] when adjacent to [Ocean]",
+        "Becomes [Ocean] when adjacent to [Water]",
         ]
 	},
 	{
@@ -121,7 +121,7 @@
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-        "Becomes [Ocean] when adjacent to [Ocean]",
+        "Becomes [Ocean] when adjacent to [Water]",
         ]
 	},
 	{
@@ -133,7 +133,7 @@
 		"uniques": ["Fresh water",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations",
-        "Becomes [Ocean] when adjacent to [Ocean]"],
+        "Becomes [Ocean] when adjacent to [Water]"],
         "civilopediaText": [
             {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
             {"text": "Rivers", "link":"Terrain/River"},
@@ -155,7 +155,7 @@
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations",
-        "Becomes [Ocean] when adjacent to [Ocean]"]
+        "Becomes [Ocean] when adjacent to [Water]"]
 	},
 	{
 		"name": "Snow",
@@ -172,7 +172,7 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Hill] tiles>","Becomes [Ocean] when adjacent to [Ocean]",
+            "Never receives any resources <in [Hill] tiles>","Becomes [Ocean] when adjacent to [Water]",
        ]
 	},
 	{
