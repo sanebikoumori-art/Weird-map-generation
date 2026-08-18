@@ -54,8 +54,6 @@
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Becomes [Ocean] when adjacent to [Ocean]",
-            "Becomes [Hill] when adjacent to [Hill Core]",
-            "Becomes [Forest] when adjacent to [Forest Core]",
         ]
     },
 	{
@@ -86,8 +84,7 @@
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
         "Becomes [Ocean] when adjacent to [Ocean]",
-            "Becomes [Hill] when adjacent to [Hill Core]",
-        "Becomes [Forest] when adjacent to [Forest Core]"]
+            ]
 	},
 	{
 		"name": "Tundra",
@@ -107,8 +104,7 @@
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
         "Becomes [Ocean] when adjacent to [Ocean]",
-            "Becomes [Hill] when adjacent to [Hill Core]",
-        "Becomes [Forest] when adjacent to [Forest Core]"]
+        ]
 	},
 	{
 		"name": "Desert",
@@ -126,7 +122,7 @@
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
         "Becomes [Ocean] when adjacent to [Ocean]",
-        "Becomes [Hill] when adjacent to [Hill Core]",]
+        ]
 	},
 	{
 		"name": "Lakes",
@@ -177,7 +173,7 @@
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>","Becomes [Ocean] when adjacent to [Ocean]",
-        "Becomes [Hill] when adjacent to [Hill Core]",]
+       ]
 	},
 	{
 		"name": "Grassland Core",
@@ -234,37 +230,6 @@
 			"Vegetation",
 			"Occurs at temperature between [-1] and [0] and humidity between [-1] and [1]",
 			"Occurs on latitudes from [80] to [100] percent of distance equator to pole"
-		]
-    },
-    {
-		"name": "Forest Core",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"occursOn": ["Grassland","Plains","Tundra"],
-        "RGB": [0, 163, 0],
-        "uniques": [
-			"Becomes [Forest] when adjacent to [Land]",
-			"Rare feature",
-		]
-    },
-    {
-		"name": "Jungle Core",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"occursOn": ["Grassland","Plains"],
-        "RGB": [0, 163, 0],
-        "uniques": [
-			"Vegetation"
-		]
-    },
-    {
-		"name": "Hill Core",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"occursOn": ["Forest Core","Grassland Core","Plains Core","Tundra Core","Snow Core","Desert Core","Tundra Core"],
-        "RGB": [0, 163, 0],
-        "uniques": [
-			"Vegetation"
 		]
     }
 ]
