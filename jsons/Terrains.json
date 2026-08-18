@@ -249,7 +249,7 @@
 		"name": "Jungle Core",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"occursOn": ["Grassland Core","Plains Core"],
+		"occursOn": ["Grassland","Plains"],
         "RGB": [0, 163, 0],
         "uniques": [
 			"Vegetation"
