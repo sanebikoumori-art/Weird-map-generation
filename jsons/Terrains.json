@@ -184,6 +184,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
+			"Vegetation",
 			"Occurs at temperature between [0.2] and [0.8] and humidity between [-1] and [1]",
 		]
     },
@@ -194,6 +195,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
+			"Vegetation",
 			"Occurs at temperature between [0.5] and [1] and humidity between [-1] and [1]",
 			"Occurs on latitudes from [0] to [20] percent of distance equator to pole"
 		]
@@ -205,6 +207,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
+			"Vegetation",
 			"Occurs at temperature between [0.5] and [0.9] and humidity between [-1] and [0.5]",
 		]
     }
@@ -215,6 +218,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
+			"Vegetation",
 			"Occurs at temperature between [-1] and [-0.5] and humidity between [-1] and [1]",
 		]
     }
@@ -225,6 +229,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
+			"Vegetation",
 			"Occurs at temperature between [-1] and [0] and humidity between [-1] and [1]",
 			"Occurs on latitudes from [80] to [100] percent of distance equator to pole"
 		]
