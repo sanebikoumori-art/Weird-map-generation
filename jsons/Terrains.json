@@ -238,14 +238,13 @@
     },
     {
 		"name": "Forest Core",
-		"type": "NaturalWonder",
+		"type": "TerrainFeature",
 		"movementCost": 1,
 		"occursOn": ["Grassland","Plains","Tundra"],
-		"turnsInto": "Grassland",
         "RGB": [0, 163, 0],
         "uniques": [
 			"Neighboring tiles will convert to [Forest]",
-			"Vegetation",
+			"Rare feature",
 		]
     },
     {
